@@ -26,15 +26,15 @@
             var myCircle = new Path.Circle(point, 500);
             
             circles.push(myCircle);
-            if (event.key == "a"){
+            if (event.key === "a"){
                 sound.resume();
                 sound.play();
                 myCircle.fillColor = "orange";
             }
 
-            if(event.key == "b"){
-                sound.resume();
-                sound.play();
+            if(event.key === "b"){
+                sound2.resume();
+                sound2.play();
                 myCircle.fillColor = "green";
             }
             
