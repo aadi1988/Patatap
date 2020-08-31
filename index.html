@@ -15,6 +15,7 @@
         var  circles = [];
  
         function onKeyDown(event) {
+            sound.resume();
             sound.play();
             var maxPoint = new Point(view.size.width, view.size.height);
             var randomPoint = Point.random();
